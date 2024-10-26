@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Navy Base Map</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .image-preview {
+            display: none; /* Initially hidden */
+            margin: 20px 0;
+            text-align: center;
+        }
+        .image-preview img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            color: green;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+            max-width: 600px;
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow */
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        pre {
+            white-space: pre-wrap; /* Allows text wrapping */
+            word-wrap: break-word; /* Prevents overflow */
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header class="navy-header">
+        <h1>Indian Navy Base Map Viewer</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to the Indian Navy</h2>
+        <p>Explore our strategic map and upload your handwritten reports.</p>
+        <img src="navy-ship.png" alt="Indian Navy Ship" class="hero-image">
+    </section>
+
+    <main>
+        <div class="upload-container">
+            <h3>Upload Handwritten Report</h3>
+            <input type="file" id="reportUpload" accept=".jpg,.jpeg,.png,.pdf">
+            <button type="button" id="uploadBtn">Upload & Scan</button>
+        </div>
+
+        <div class="image-preview" id="imagePreview">
+            <h4>Uploaded Image:</h4>
+            <img id="uploadedImage" src="" alt="Uploaded Report Image">
+        </div>
+
+        <div id="loading" style="display: none;">Loading...</div> <!-- Placeholder for loading text -->
+
+        <div class="map-container">
+            <iframe src="map.html" title="Indian Navy Base Map" frameborder="0"></iframe>
+        </div>
+    </main>
+
+    <footer class="navy-footer">
+        <p>&copy; 2024 Indian Navy. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for OCR results -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h3>OCR and Structured Data</h3>
+            <p><strong>OCR Result:</strong></p>
+            <p id="ocrResult"></p>
+            <p><strong>Structured Data:</strong></p>
+            <pre id="structuredData"></pre>
+        </div>
+    </div>
+
+    <script>
+async function updateData(structured_data, ocr_result) {
+    try {
+        const response = await fetch('http://127.0.0.1:8000/update_report', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                "structured_data": structured_data,
+                "ocr_result": ocr_result
+            }),
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to update report.');
+        }
+
+        console.log('Report updated successfully.');
+    } catch (error) {
+        alert('An error occurred while updating the report: ' + error.message);
+    }
+}
+
+
+        document.getElementById('uploadBtn').onclick = async function() {
+            const fileInput = document.getElementById('reportUpload');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert('Please select a file.');
+                return;
+            }
+
+            // Display the uploaded image
+            const imagePreview = document.getElementById('imagePreview');
+            const uploadedImage = document.getElementById('uploadedImage');
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                uploadedImage.src = e.target.result;
+                imagePreview.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+
+            // Display loading text
+            const loadingText = document.getElementById('loading');
+            loadingText.style.display = 'block'; // Show loading text
+
+            const formData = new FormData();
+            formData.append('image', file);
+            const prompt = "Perform OCR strictly without giving any other additional text";
+            formData.append('prompt', prompt);
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/generate', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to upload the file.');
+                }
+
+                const data = await response.json();
+
+                // Show OCR results in modal
+                document.getElementById('ocrResult').innerText = data.OCR || 'No OCR text found.';
+                document.getElementById('structuredData').innerText = JSON.stringify(data.structured, null, 2);
+                document.getElementById('resultModal').style.display = 'block'; // Show the modal
+
+                // Call the endpoint to update data with the structured data and OCR result
+                setTimeout(async () => {
+                // Call the endpoint to update data with the structured data and OCR result
+                await updateData(data.structured, data.OCR);
+            }, 5000);
+
+
+                // Hide loading text
+                loadingText.style.display = 'none';
+
+            } catch (error) {
+                alert('An error occurred: ' + error.message);
+                loadingText.style.display = 'none';
+            }
+        };
+
+        // Close modal when the user clicks on <span> (x)
+        document.getElementById('closeModal').onclick = function() {
+            document.getElementById('resultModal').style.display = 'none';
+        };
+
+        // Close modal when the user clicks anywhere outside of the modal
+        window.onclick = function(event) {
+            const modal = document.getElementById('resultModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>

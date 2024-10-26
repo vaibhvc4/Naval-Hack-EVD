@@ -1,0 +1,1289 @@
+
+  [
+{
+  "datetime": "221100Z OCT 24",
+  "coords": [[12.833333, -71.083333], [13.083333, -71.166667]],
+  "description": "DETECTED MULTIPLE UNDERSEA CONTACTS.",
+  "speed": null,
+  "directions": "045°",
+  "depth": null
+},
+{
+  "datetime": "221230Z OCT 24",
+  "coords": [[13.25, -70.666667]],
+  "description": "INTERCEPTED SUSPICIOUS VESSEL.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "221400Z OCT 24",
+  "coords": [[12.75, -71.333333]],
+  "description": "DISCOVERED UNUSUAL CORAL FORMATION.",
+  "speed": null,
+  "directions": null,
+  "depth": "50 meters"
+}
+
+,{
+  "datetime": "221530Z OCT 24",
+  "coords": [[13.5, -71.75]],
+  "description": "UNIDENTIFIED SURFACE CONTACTS APPROACHING TERRITORIAL WATERS.",
+  "speed": "25 knots",
+  "directions": "270°",
+  "depth": null
+}
+
+,{
+  "datetime": "221700Z OCT 24",
+  "coords": [[12.916667, -71.5]],
+  "description": "COMMENCED OPERATIONS AT DESIGNATED SITE DELTA-7.",
+  "speed": null,
+  "directions": null,
+  "depth": "3000 meters"
+}
+
+,{
+  "datetime": "221830Z OCT 24",
+  "coords": [[13.166667, -70.833333]],
+  "description": "SPOTTED LARGE OIL SLICK.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "222000Z OCT 24",
+  "coords": [[13.333333, -71.25]],
+  "description": "COMPLETED COVERT SURVEILLANCE OF SECTOR 9.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "222130Z OCT 24",
+  "coords": [[12.666667, -70.5]],
+  "description": "MULTIPLE VESSELS ILLEGALLY FISHING IN PROTECTED WATERS.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "222300Z OCT 24",
+  "coords": [[13.083333, -71]],
+  "description": "RESPONDED TO DISTRESS CALL FROM YACHT \"SEABREEZE\".",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "230030Z OCT 24",
+  "coords": [[13.583333, -71.416667]],
+  "description": "INTERCEPTED ENCRYPTED COMMUNICATIONS FROM UNKNOWN SOURCE.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "230200Z OCT 24",
+  "coords": [[12.5, -70.75]],
+  "description": "COMPLETED INSTALLATION OF NEW TURBINE ARRAY.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "230330Z OCT 24",
+  "coords": [[13.416667, -71.166667]],
+  "description": "DETECTED UNAUTHORIZED DATA TRANSMISSION FROM OCEAN BUOY.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "230500Z OCT 24",
+  "coords": [[12.75, -70.333333]],
+  "description": "MAIN LIGHT MECHANISM FAILURE AT POINT NEBULA LIGHTHOUSE.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "230630Z OCT 24",
+  "coords": [[13, -71.666667]],
+  "description": "DETECTED SERIES OF UNDERWATER SEISMIC EVENTS.",
+  "speed": null,
+  "directions": null,
+  "depth": "10 km"
+}
+
+,{
+  "datetime": "230800Z OCT 24",
+  "coords": null,
+  "description": "COMPLETED LARGE-SCALE NAVAL EXERCISE IN SECTOR 12.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "230930Z OCT 24",
+  "coords": [[12.833333, -70.583333]],
+  "description": "INTERCEPTED LARGE TRAWLER VIOLATING FISHING REGULATIONS.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "231100Z OCT 24",
+  "coords": [[13.25, -71.083333]],
+  "description": "DISCOVERED WRECK OF 18TH CENTURY MERCHANT SHIP.",
+  "speed": null,
+  "directions": null,
+  "depth": "200 meters"
+}
+
+,{
+  "datetime": "231230Z OCT 24",
+  "coords": [[13.666667, -70.833333]],
+  "description": "INTERCEPTED SUSPICIOUS FAST BOAT.",
+  "speed": "35 knots",
+  "directions": "315°",
+  "depth": null
+}
+
+,{
+  "datetime": "231400Z OCT 24",
+  "coords": [[12.916667, -71.333333]],
+  "description": "HAZARDOUS MATERIAL SPILL REPORTED IN SHIPPING LANE.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "231530Z OCT 24",
+  "coords": [[13.5, -71.75]],
+  "description": "COMPLETED RECONNAISSANCE FLIGHT OVER DISPUTED WATERS.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "231700Z OCT 24",
+  "coords": [[12.666667, -70.916667]],
+  "description": "DETECTED ANOMALOUS ACOUSTIC SIGNATURE.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "231830Z OCT 24",
+  "coords": [[13.333333, -71.166667]],
+  "description": "PIRACY ATTEMPT THWARTED ON CONTAINER SHIP \"GLOBAL EXPRESS\".",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+,{
+  "datetime": "2017-10-24 16:45:00",
+  "coords": [
+      [13.75, -71.38]
+  ],
+  "description": "Detected submarine periscope",
+  "speed": null,
+  "directions": "270°",
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 18:30:00",
+  "coords": [
+      [13, -71]
+  ],
+  "description": "Weather advisory",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 20:00:00",
+  "coords": [
+      [12.5, -70.75]
+  ],
+  "description": "Spotted vessel matching description",
+  "speed": "20 knots",
+  "directions": "315°",
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 21:13:00",
+  "coords": [
+      [13.17, -71.08]
+  ],
+  "description": "Completed underwater mapping",
+  "speed": null,
+  "directions": null,
+  "depth": "80 meters below surface"
+}
+
+,{
+  "datetime": "2017-10-24 22:03:00",
+  "coords": [
+      []
+  ],
+  "description": "Port closure due to maintenance",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 21:00:30",
+  "coords": [
+      [12.92, -70.67]
+  ],
+  "description": "Distress call received from yacht",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 22:02:00",
+  "coords": [
+      [13.42, -71.33]
+  ],
+  "description": "Oil spill detected",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 21:33:00",
+  "coords": [
+      [12.67, -70.5]
+  ],
+  "description": "Intercepted fishing vessel",
+  "speed": "25 knots",
+  "directions": "045°",
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 21:50:00",
+  "coords": [
+      [12.5, -70.75]
+  ],
+  "description": "Intercepted communication",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 21:63:00",
+  "coords": [
+      [13.08, -70.33]
+  ],
+  "description": "Lighthouse undergoing repairs",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 21:80:00",
+  "coords": [
+      [13.25, -71.17]
+  ],
+  "description": "Intercepted suspicious vessel",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 21:93:00",
+  "coords": [
+      []
+  ],
+  "description": "Temporary flight restrictions",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 22:11:00",
+  "coords": [
+      [12.83, -71.08]
+  ],
+  "description": "Discovered hydrothermal vent field",
+  "speed": null,
+  "directions": null,
+  "depth": "2000 meters"
+}
+
+,{
+  "datetime": "2017-10-24 22:23:00",
+  "coords": [
+      [13.33, -70.92]
+  ],
+  "description": "Detected fast boat approaching",
+  "speed": "40 knots",
+  "directions": "270°",
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 22:40:00",
+  "coords": [
+      []
+  ],
+  "description": "Piracy alert issued",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 22:53:00",
+  "coords": [
+      [12.75, -70.83]
+  ],
+  "description": "Commenced anti-submarine warfare exercise",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 22:70:00",
+  "coords": [
+      [13.17, -71.33]
+  ],
+  "description": "Observed humpback whales",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 22:83:00",
+  "coords": [
+      [13.5, -70.75]
+  ],
+  "description": "Unidentified aircraft detected",
+  "speed": "200 knots",
+  "directions": "180°",
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 23:00:00",
+  "coords": [
+      [12.92, -71.17]
+  ],
+  "description": "Completed placement of underwater sensors",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 23:13:00",
+  "coords": [
+      []
+  ],
+  "description": "Severe storm warning issued",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 23:30:00",
+  "coords": [
+      [12.97, -70.58]
+  ],
+  "description": "Located missing yacht",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 23:03:00",
+  "coords": [
+      [13.08, -71.25]
+  ],
+  "description": "Completed resupply of submarine Delta",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 23:20:00",
+  "coords": [
+      [12.67, -70.83]
+  ],
+  "description": "Detected unusual electromagnetic emissions",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 23:33:00",
+  "coords": [
+      [13.37, -70.47]
+  ],
+  "description": "Rescued 5 crew members",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-24 23:50:00",
+  "coords": [
+      [13.13, -71.03]
+  ],
+  "description": "Completed survey of Sector 7B",
+  "speed": null,
+  "directions": null,
+  "depth": "15 meters"
+}
+
+,{
+  "datetime": "2017-10-24 23:63:00",
+  "coords": [
+      [12.58, -71.3]
+  ],
+  "description": "Large debris field spotted",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-25 00:08:00",
+  "coords": [
+      []
+  ],
+  "description": "Runway 27 closed due to damage",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2017-10-25 00:29:30",
+  "coords": [
+      [13.67, -70.92]
+  ],
+  "description": "Mayday call received",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "232000Z OCT 24",
+  "coords": [[12.583333, -71.416667]],
+  "description": "Discovered unique hydrothermal vent ecosystem",
+  "speed": null,
+  "directions": null,
+  "depth": 3500
+},
+{
+  "datetime": "232130Z OCT 24",
+  "coords": [[13.833333, -70.666667]],
+  "description": "Detected unidentified aerial object",
+  "speed": "variable, ranging from 0 to 500 knots",
+  "directions": null,
+  "depth": 5000
+},
+{
+  "datetime": "232300Z OCT 24",
+  "coords": [[12.8, -70.25]],
+  "description": "Mass stranding event in progress",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "240030Z OCT 24",
+  "coords": [[13.083333, -71.583333]],
+  "description": "Explosion reported on drilling deck",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "240200Z OCT 24",
+  "coords": [[13.366667, -71.3]],
+  "description": "Covert insertion completed at objective Falcon",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "240330Z OCT 24",
+  "coords": [[12.5, -70.5]],
+  "description": "Sudden pressure drop detected across multiple buoys",
+  "speed": "increasing rapidly, gusting to 100 knots",
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "240500Z OCT 24",
+  "coords": [[13.166667, -71.083333]],
+  "description": "Completed resupply operation with SSN Barracuda",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "240630Z OCT 24",
+  "coords": [[12.916667, -70.766667]],
+  "description": "Detected large toxic algal bloom forming",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "240800Z OCT 24",
+  "coords": [[13.666667, -70.833333]],
+  "description": "Spotted debris field",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "240930Z OCT 24",
+  "coords": [[12.5, -71.25]],
+  "description": "Completed high-resolution mapping of seafloor in sector 17",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "241100Z OCT 24",
+  "coords": [[13.416667, -71.666667]],
+  "description": "Intercepted encrypted transmissions from unknown vessel",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "241230Z OCT 24",
+  "coords": [[12.833333, -70.333333]],
+  "description": "Massive fish die-off observed in protected waters",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "241400Z OCT 24",
+  "coords": [[13.25, -71.833333]],
+  "description": "Completed survey of potential mining site Bravo",
+  "speed": null,
+  "directions": null,
+  "depth": 4000
+},
+{
+  "datetime": "241530Z OCT 24",
+  "coords": [[12.583333, -70.416667]],
+  "description": "Intercepted vessel suspected of human trafficking",
+  "speed": 10,
+  "directions": 315,
+  "depth": null
+},
+{
+  "datetime": "241700Z OCT 24",
+  "coords": [[14, -72.5]],
+  "description": "Strong earthquake detected, magnitude 7.8",
+  "speed": null,
+  "directions": null,
+  "depth": 10
+},
+{
+  "datetime": "241830Z OCT 24",
+  "coords": [[13.083333, -70.583333]],
+  "description": "Unidentified submarine periscope sighted near base perimeter",
+  "speed": null,
+  "directions": "easterly",
+  "depth": null
+},
+{
+  "datetime": "242000Z OCT 24",
+  "coords": [[12.666667, -70.75]],
+  "description": "Abnormal readings from turbine cluster 7",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "242130Z OCT 24",
+  "coords": [[13.5, -71.333333]],
+  "description": "Discovered intact ancient shipwreck",
+  "speed": null,
+  "directions": null,
+  "depth": 150
+},
+{
+  "datetime": "242300Z OCT 24",
+  "coords": [[13.833333, -71.166667]],
+  "description": "Responding to distress call from cruise ship Oceanic Dream",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "250030Z OCT 24",
+  "coords": [[12.916667, -71.666667]],
+  "description": "Detected unusual seismic activity",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "250200Z OCT 24",
+  "coords": [[13.166667, -70.666667]],
+  "description": "Observed unprecedented gathering of various marine species",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "250330Z OCT 24",
+  "coords": [[13.666667, -71.5]],
+  "description": "Radar contact with fast-moving, low-flying object",
+  "speed": "Mach 3",
+  "directions": "045",
+  "depth": 100
+},
+{
+  "datetime": "250500Z OCT 24",
+  "coords": [[13, -71.25]],
+  "description": "Rogue wave reported by multiple vessels",
+  "speed": null,
+  "directions": null,
+  "depth": 30
+},
+{
+  "datetime": "250630Z OCT 24",
+  "coords": [[12.5, -70.75]],
+  "description": "Successfully neutralized underwater listening device",
+  "speed": null,
+  "directions": null,
+  "depth": 500
+},
+{
+  "datetime": "250800Z OCT 24",
+  "coords": [[13.75, -71.916667]],
+  "description": "Detected massive methane release event",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "250930Z OCT 24",
+  "coords": [[12.833333, -71.666667]],
+  "description": "Encountered unexpected geological formation at mining site.",
+  "speed": null,
+  "directions": null,
+  "depth": 4500
+},
+{
+  "datetime": "251100Z OCT 24",
+  "coords": [[13.333333, -70.5]],
+  "description": "Intercepted suspicious vessel.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "251230Z OCT 24",
+  "coords": [[13.083333, -71.166667]],
+  "description": "Recorded unusual whale vocalizations.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "251400Z OCT 24",
+  "coords": [[12.5, -70.75], [13, -71.15]],
+  "description": "Completed sweep of suspected hostile submarine activity area.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "251530Z OCT 24",
+  "coords": [[13.583333, -71.416667]],
+  "description": "Experiencing unexpected pressure buildup in well 7.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "251700Z OCT 24",
+  "coords": [[14, -72]],
+  "description": "Investigated tropical disturbance.",
+  "speed": 60,
+  "directions": "West-northwest",
+  "depth": null
+},
+{
+  "datetime": "251830Z OCT 24",
+  "coords": [[12.666667, -71.083333]],
+  "description": "Observed unidentified underwater vehicle.",
+  "speed": null,
+  "directions": null,
+  "depth": 2000
+},
+{
+  "datetime": "252000Z OCT 24",
+  "coords": [[13.25, -70.833333]],
+  "description": "Detected large-scale chemical spill.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "252130Z OCT 24",
+  "coords": [[13.833333, -71.666667]],
+  "description": "Tracked formation of unidentified aircraft.",
+  "speed": 2,
+  "directions": "270°",
+  "depth": null
+},
+{
+  "datetime": "252300Z OCT 24",
+  "coords": [[12.916667, -71.5]],
+  "description": "Discovered unique bioluminescent phenomenon.",
+  "speed": null,
+  "directions": null,
+  "depth": 3000
+},
+{
+  "datetime": "260030Z OCT 24",
+  "coords": [[]],
+  "description": "Suspicous package detected during routine scan of incoming cargo.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "260200Z OCT 24",
+  "coords": [[13.166667, -70.666667], [13.333333, -70.833333]],
+  "description": "Encountered massive school of unidentified fish species.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "260330Z OCT 24",
+  "coords": [[13.416667, -71.25]],
+  "description": "Detected sophisticated cyber attack on naval communications network.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "260500Z OCT 24",
+  "coords": [[12.75, -70.583333]],
+  "description": "Responding to distress signal from private yacht 'Sea Spirit'.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "260630Z OCT 24",
+  "coords": [[13.666667, -71.833333]],
+  "description": "Detected series of underwater explosions.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "260800Z OCT 24",
+  "coords": [[12.5, -70.333333], [12.666667, -70.5]],
+  "description": "Observed mass die-off of coral in protected reef.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "260930Z OCT 24",
+  "coords": [[13.083333, -71.75], [13.066667, -71.816667]],
+  "description": "Completed survey of potential mining site Delta.",
+  "speed": null,
+  "directions": null,
+  "depth": 4500
+},
+{
+  "datetime": "261100Z OCT 24",
+  "coords": [[13.5, -72]],
+  "description": "Recording extreme weather conditions in sector 6.",
+  "speed": 150,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "261230Z OCT 24",
+  "coords": [[12.833333, -71.166667]],
+  "description": "Completed covert resupply of SSN Barracuda.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "261400Z OCT 24",
+  "coords": [[13.416667, -71.583333]],
+  "description": "Unidentified surface vessels approaching territorial waters.",
+  "speed": 25,
+  "directions": "315°",
+  "depth": null
+},
+{
+  "datetime": "261530Z OCT 24",
+  "coords": [[13.25, -71.416667]],
+  "description": "Detected significant seismic activity.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "261700Z OCT 24",
+  "coords": [[12.583333, -70.666667]],
+  "description": "Intercepted encrypted transmissions from unknown source.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "261830Z OCT 24",
+  "coords": [[13, -70.75], [13.166667, -70.916667]],
+  "description": "Experiencing catastrophic failure of multiple turbines.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "262000Z OCT 24",
+  "coords": [[12.666667, -71.5], [12.666667, -71.416667]],
+  "description": "Discovered unknown species of giant squid.",
+  "speed": null,
+  "directions": null,
+  "depth": 2000
+},
+{
+  "datetime": "262130Z OCT 24",
+  "coords": [[13.833333, -71.083333]],
+  "description": "Spotted large debris field.",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-20 14:30:00 UTC",
+  "coords": [[13.25, -71.5]],
+  "description": "Cargo vessel 'Pacific Trader' observed",
+  "speed": 12,
+  "directions": 45,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-20 15:45:00 UTC",
+  "coords": [[12.833333, -70.25]],
+  "description": "Two fishing vessels spotted",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-20 17:20:00 UTC",
+  "coords": [[13.083333, -71.166667]],
+  "description": "Unidentified fast-moving craft",
+  "speed": 35,
+  "directions": 270,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-20 19:00:00 UTC",
+  "coords": [[12.666667, -70.916667]],
+  "description": "Large underwater contact detected",
+  "speed": null,
+  "directions": null,
+  "depth": 200
+}
+
+,{
+  "datetime": "2024-10-20 20:30:00 UTC",
+  "coords": [[13.5, -71.75]],
+  "description": "Cruise ship 'Ocean Star' observed",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-20 22:10:00 UTC",
+  "coords": [[]],
+  "description": "Multiple small contacts detected",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-20 23:55:00 UTC",
+  "coords": [[12.5, -70.666667]],
+  "description": "Tanker 'Black Pearl' observed",
+  "speed": 8,
+  "directions": 180,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 01:30:00 UTC",
+  "coords": [[]],
+  "description": "Pleasure yacht 'Sea Breeze' entering Port Xavier",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 03:40:00 UTC",
+  "coords": [[13.333333, -71.25]],
+  "description": "Oil slick detected",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 05:05:00 UTC",
+  "coords": [[12.916667, -70.5]],
+  "description": "Unlit vessel spotted",
+  "speed": 6,
+  "directions": 90,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 06:30:00 UTC",
+  "coords": [[13.166667, -70.333333]],
+  "description": "Large cargo ship 'Asian Enterprise' passed",
+  "speed": 15,
+  "directions": 315,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 08:15:00 UTC",
+  "coords": [[12.75, -71.083333]],
+  "description": "School of dolphins spotted",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 09:50:00 UTC",
+  "coords": [[13.583333, -71.416667]],
+  "description": "Small aircraft flying low over water",
+  "speed": 120,
+  "directions": 180,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 11:25:00 UTC",
+  "coords": [[12.633333, -70.8]],
+  "description": "Intercepted distress call from sailing yacht 'Windseeker'",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 13:00:00 UTC",
+  "coords": [[]],
+  "description": "Container ship 'Global Freight' docked",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+,{
+  "datetime": "2024-10-21 13:00:00 UTC",
+  "coords": [[]],
+  "description": "All quiet in sector 7",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},{
+  "datetime": "2024-10-20 14:30:00 UTC",
+  "coords": [[13.25, 71.5]],
+  "description": "Cargo vessel observed",
+  "speed": 12,
+  "directions": 45,
+  "depth": null
+},
+{
+  "datetime": "2024-10-21 08:45:00 UTC",
+  "coords": [[12.833333, 70.25]],
+  "description": "Two fishing vessels spotted",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-22 22:15:00 UTC",
+  "coords": [[13.083333, 71.166667]],
+  "description": "Unidentified fast-moving craft",
+  "speed": 35,
+  "directions": 270,
+  "depth": null
+},
+{
+  "datetime": "2024-10-23 11:00:00 UTC",
+  "coords": [[12.666667, 70.916667]],
+  "description": "Large underwater contact detected",
+  "speed": null,
+  "directions": null,
+  "depth": 200
+},
+{
+  "datetime": "2024-10-24 16:20:00 UTC",
+  "coords": [[13.5, 71.75]],
+  "description": "Cruise ship \"Ocean Star\" observed",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-25 03:10:00 UTC",
+  "coords": [[]],
+  "description": "Multiple small contacts detected",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-26 19:55:00 UTC",
+  "coords": [[12.5, 70.666667]],
+  "description": "Tanker \"Black Pearl\" observed",
+  "speed": 8,
+  "directions": 180,
+  "depth": null
+},
+{
+  "datetime": "2024-10-27 07:30:00 UTC",
+  "coords": [[]],
+  "description": "Pleasure yacht entering Port Xavier",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-28 13:40:00 UTC",
+  "coords": [[13.333333, 71.25]],
+  "description": "Oil slick detected",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-29 05:05:00 UTC",
+  "coords": [[12.916667, 70.5]],
+  "description": "Unlit vessel spotted",
+  "speed": 6,
+  "directions": 90,
+  "depth": null
+},
+{
+  "datetime": "2024-10-20 16:45:00 local",
+  "coords": [[12.566667, 70.933333]],
+  "description": "Small craft at 12°34'N, 70°56'W",
+  "speed": "5-15 knots",
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-21 09:30:00 local",
+  "coords": [[13.166667, 71.333333]],
+  "description": "Large cargo ship, possible smuggling",
+  "speed": 18,
+  "directions": 225,
+  "depth": null
+},
+{
+  "datetime": "2024-10-22 14:15:00 local",
+  "coords": [[12.75, 70.666667]],
+  "description": "Submarine-like contact",
+  "speed": null,
+  "directions": 180,
+  "depth": 150
+},
+{
+  "datetime": "2024-10-23 22:00:00 local",
+  "coords": [[13.083333, 71.166667]],
+  "description": "Lights off shore, possible illegal fishing",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-24 11:20:00 local",
+  "coords": [[13.5, 71.75]],
+  "description": "Oil tanker approaching restricted area",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-25 08:45:00 local",
+  "coords": [[12.5, 70.333333]],
+  "description": "Suspicious debris washed ashore",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-26 19:30:00 local",
+  "coords": [[13.25, 71.5]],
+  "description": "Fast-moving air contact, low altitude",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-27 05:10:00 local",
+  "coords": [[12.833333, 70.833333]],
+  "description": "Two vessels rendezvousing at sea",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-28 13:00:00 local",
+  "coords": [[13.333333, 71.25]],
+  "description": "Unidentified submersible near reef",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-29 17:40:00 local",
+  "coords": [[12.666667, 70.5, 13.166667, 71]],
+  "description": "Large-scale military exercise observed",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-24 16:45:00 UTC",
+  "coords": [[13.75, 71.383333]],
+  "description": "Detected submarine periscope",
+  "speed": null,
+  "directions": 270,
+  "depth": null
+},
+{
+  "datetime": "2024-10-24 21:03:00 UTC",
+  "coords": [[]],
+  "description": "Weather advisory: Tropical storm approaching",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-24 22:15:00 UTC",
+  "coords": [[12.5, 70.75]],
+  "description": "Spotted vessel matching description of wanted smuggling ship",
+  "speed": 20,
+  "directions": 315,
+  "depth": null
+},
+{
+  "datetime": "2024-10-24 23:12:00 UTC",
+  "coords": [[13.166667, 71.083333]],
+  "description": "Completed underwater mapping of Sector 4",
+  "speed": null,
+  "directions": null,
+  "depth": 80
+},
+{
+  "datetime": "2024-10-24 24:16:00 UTC",
+  "coords": [[]],
+  "description": "Port closure due to maintenance",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-24 25:18:30 UTC",
+  "coords": [[12.916667, 70.666667]],
+  "description": "Distress call received from yacht \"Serenity\"",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-26 10:45:00 UTC",
+  "coords": [[13.416667, 71.333333]],
+  "description": "Oil spill detected",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-27 08:30:00 UTC",
+  "coords": [[12.666667, 70.5]],
+  "description": "Intercepted fishing vessel \"Lucky Star\"",
+  "speed": 25,
+  "directions": 45,
+  "depth": null
+},
+{
+  "datetime": "2024-10-28 12:00:00 UTC",
+  "coords": [[]],
+  "description": "Possible hostile submarine activity",
+  "speed": null,
+  "directions": null,
+  "depth": null
+},
+{
+  "datetime": "2024-10-29 16:00:00 UTC",
+  "coords": [[13.083333, 70.333333]],
+  "description": "Lighthouse at 13°05'N, 70°20'W undergoing repairs",
+  "speed": null,
+  "directions": null,
+  "depth": null
+}
+
+]

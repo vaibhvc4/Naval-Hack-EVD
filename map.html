@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Defense Zones Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <style>
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+    .image-preview {
+      max-width: 300px; /* Set the maximum width for the image */
+      max-height: 300px; /* Set the maximum height for the image */
+      margin: 20px auto;
+      display: none; /* Initially hidden */
+      text-align: center;
+    }
+    .image-preview img {
+      width: 100%; /* Make the image responsive */
+      height: auto;
+    }
+    .scanning-animation {
+      display: none;
+      width: 100px; /* Width of your scanning animation */
+      height: 100px; /* Height of your scanning animation */
+      margin: 20px auto;
+      background-image: url('loading-spinner.gif'); /* Use a loading spinner gif */
+      background-size: contain;
+      background-repeat: no-repeat;
+      animation: scan 1.5s infinite; /* Animation effect */
+    }
+    @keyframes scan {
+      0% { background-position: 0 0; }
+      100% { background-position: -100px 0; } /* Adjust based on the spinner width */
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="image-preview" id="imagePreview">
+  <h4>Uploaded Image:</h4>
+  <img id="uploadedImage" src="" alt="Uploaded Report Image">
+</div>
+
+<div id="loading" class="scanning-animation"></div>
+
+<!-- Leaflet, Leaflet.markercluster, and PapaParse libraries -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+<script>
+  const map = L.map('map').setView([15, 80], 5);
+
+  // Load and display OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Create a marker cluster group
+  const markers = L.markerClusterGroup();
+
+  // Function to create polygons from CSV data
+  function createPolygons(data) {
+    data.forEach(zone => {
+      const coordinates = [
+        JSON.parse(zone["Coord A"]),
+        JSON.parse(zone["Coord B"]),
+        JSON.parse(zone["Coord C"]),
+        JSON.parse(zone["Coord D"])
+      ];
+
+      const polygon = L.polygon(coordinates, {
+        color: 'green',
+        fillColor: '#46923c',
+        fillOpacity: 0.1,
+        weight: 1
+      }).addTo(map);
+
+      // Add hover events to display info and bring to front
+      polygon.on('mouseover', function () {
+        this.setStyle({ fillColor: 'yellow', fillOpacity: 0.4 });
+        this.bindTooltip(`<strong>${zone.name}</strong><br>${zone.type}<br>${zone.significance}`).openTooltip();
+        this.bringToFront();
+      });
+
+      polygon.on('mouseout', function () {
+        this.setStyle({ fillColor: '#46923c', fillOpacity: 0.1 });
+      });
+    });
+  }
+
+  // Function to add submarine contact markers from report.csv data
+  function addReportMarkers(data) {
+    event.preventDefault();
+    data.forEach((entry, index) => {
+      try {
+        const coordinates = JSON.parse(entry.coords);
+        console.log(`Entry ${index + 1} coordinates:`, coordinates); // Log the coordinates
+
+        coordinates.forEach((coord, subIndex) => {
+          if (coord.length === 2) {  // Ensure it has both latitude and longitude
+            const marker = L.marker(coord);
+            marker.bindPopup(
+              `<strong>Detected Contact ${index + 1}.${subIndex + 1}:</strong><br>
+              Latitude: ${coord[0]}<br>
+              Longitude: ${coord[1]}<br>
+              DateTime : ${entry.datetime || "N/A"}<br>
+              Description: ${entry.description || "N/A"}<br>
+              Speed: ${entry.speed || "N/A"}<br>
+              Depth: ${entry.depth || "N/A"}<br>
+              Direction: ${entry.directions || "N/A"}`
+            );
+
+            markers.addLayer(marker);
+          } else {
+            console.error(`Invalid coordinate format for entry ${index + 1}.${subIndex + 1}:`, coord);
+          }
+        });
+      } catch (error) {
+        console.error(`Error parsing coordinates for entry ${index + 1}:`, error);
+      }
+    });
+
+    // Add the marker cluster group to the map
+    map.addLayer(markers);
+  }
+
+  // Load CSV data for polygons and contacts and create map elements
+  Papa.parse("output.csv", {
+    download: true,
+    header: true,
+    complete: function (results) {
+      createPolygons(results.data);  // Create polygons from zones data
+    }
+  });
+
+  Papa.parse("report.csv", {
+    download: true,
+    header: true,
+    complete: function (results) {
+      addReportMarkers(results.data);  // Add markers from contact data
+    }
+  });
+
+  // Example of how to handle file upload and display the image
+  document.getElementById('reportUpload').addEventListener('change', function() {
+    const file = this.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('uploadedImage').src = e.target.result;
+        document.getElementById('imagePreview').style.display = 'block';
+      };
+      reader.readAsDataURL(file);
+
+      // Show scanning animation
+      document.getElementById('loading').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('loading').style.display = 'none';
+      }, 3000); // Adjust the time as needed for the animation duration
+    }
+  });
+</script>
+
+</body>
+</html>

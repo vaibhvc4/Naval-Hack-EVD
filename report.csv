@@ -1,0 +1,148 @@
+datetime,coords,description,speed,directions,depth
+221100Z OCT 24,"[[12.833333, -71.083333], [13.083333, -71.166667]]",DETECTED MULTIPLE UNDERSEA CONTACTS.,None,045Â°,None
+221230Z OCT 24,"[[13.25, -70.666667]]",INTERCEPTED SUSPICIOUS VESSEL.,None,None,None
+221400Z OCT 24,"[[12.75, -71.333333]]",DISCOVERED UNUSUAL CORAL FORMATION.,None,None,50 meters
+221530Z OCT 24,"[[13.5, -71.75]]",UNIDENTIFIED SURFACE CONTACTS APPROACHING TERRITORIAL WATERS.,25 knots,270Â°,None
+221700Z OCT 24,"[[12.916667, -71.5]]",COMMENCED OPERATIONS AT DESIGNATED SITE DELTA-7.,None,None,3000 meters
+221830Z OCT 24,"[[13.166667, -70.833333]]",SPOTTED LARGE OIL SLICK.,None,None,None
+222000Z OCT 24,"[[13.333333, -71.25]]",COMPLETED COVERT SURVEILLANCE OF SECTOR 9.,None,None,None
+222130Z OCT 24,"[[12.666667, -70.5]]",MULTIPLE VESSELS ILLEGALLY FISHING IN PROTECTED WATERS.,None,None,None
+222300Z OCT 24,"[[13.083333, -71]]","RESPONDED TO DISTRESS CALL FROM YACHT ""SEABREEZE"".",None,None,None
+230030Z OCT 24,"[[13.583333, -71.416667]]",INTERCEPTED ENCRYPTED COMMUNICATIONS FROM UNKNOWN SOURCE.,None,None,None
+230200Z OCT 24,"[[12.5, -70.75]]",COMPLETED INSTALLATION OF NEW TURBINE ARRAY.,None,None,None
+230330Z OCT 24,"[[13.416667, -71.166667]]",DETECTED UNAUTHORIZED DATA TRANSMISSION FROM OCEAN BUOY.,None,None,None
+230500Z OCT 24,"[[12.75, -70.333333]]",MAIN LIGHT MECHANISM FAILURE AT POINT NEBULA LIGHTHOUSE.,None,None,None
+230630Z OCT 24,"[[13, -71.666667]]",DETECTED SERIES OF UNDERWATER SEISMIC EVENTS.,None,None,10 km
+230800Z OCT 24,null,COMPLETED LARGE-SCALE NAVAL EXERCISE IN SECTOR 12.,None,None,None
+230930Z OCT 24,"[[12.833333, -70.583333]]",INTERCEPTED LARGE TRAWLER VIOLATING FISHING REGULATIONS.,None,None,None
+231100Z OCT 24,"[[13.25, -71.083333]]",DISCOVERED WRECK OF 18TH CENTURY MERCHANT SHIP.,None,None,200 meters
+231230Z OCT 24,"[[13.666667, -70.833333]]",INTERCEPTED SUSPICIOUS FAST BOAT.,35 knots,315Â°,None
+231400Z OCT 24,"[[12.916667, -71.333333]]",HAZARDOUS MATERIAL SPILL REPORTED IN SHIPPING LANE.,None,None,None
+231530Z OCT 24,"[[13.5, -71.75]]",COMPLETED RECONNAISSANCE FLIGHT OVER DISPUTED WATERS.,None,None,None
+231700Z OCT 24,"[[12.666667, -70.916667]]",DETECTED ANOMALOUS ACOUSTIC SIGNATURE.,None,None,None
+231830Z OCT 24,"[[13.333333, -71.166667]]","PIRACY ATTEMPT THWARTED ON CONTAINER SHIP ""GLOBAL EXPRESS"".",None,None,None
+2017-10-24 16:45:00,"[[13.75, -71.38]]",Detected submarine periscope,None,270Â°,None
+2017-10-24 18:30:00,"[[13, -71]]",Weather advisory,None,None,None
+2017-10-24 20:00:00,"[[12.5, -70.75]]",Spotted vessel matching description,20 knots,315Â°,None
+2017-10-24 21:13:00,"[[13.17, -71.08]]",Completed underwater mapping,None,None,80 meters below surface
+2017-10-24 22:03:00,[[]],Port closure due to maintenance,None,None,None
+2017-10-24 21:00:30,"[[12.92, -70.67]]",Distress call received from yacht,None,None,None
+2017-10-24 22:02:00,"[[13.42, -71.33]]",Oil spill detected,None,None,None
+2017-10-24 21:33:00,"[[12.67, -70.5]]",Intercepted fishing vessel,25 knots,045Â°,None
+2017-10-24 21:50:00,"[[12.5, -70.75]]",Intercepted communication,None,None,None
+2017-10-24 21:63:00,"[[13.08, -70.33]]",Lighthouse undergoing repairs,None,None,None
+2017-10-24 21:80:00,"[[13.25, -71.17]]",Intercepted suspicious vessel,None,None,None
+2017-10-24 21:93:00,[[]],Temporary flight restrictions,None,None,None
+2017-10-24 22:11:00,"[[12.83, -71.08]]",Discovered hydrothermal vent field,None,None,2000 meters
+2017-10-24 22:23:00,"[[13.33, -70.92]]",Detected fast boat approaching,40 knots,270Â°,None
+2017-10-24 22:40:00,[[]],Piracy alert issued,None,None,None
+2017-10-24 22:53:00,"[[12.75, -70.83]]",Commenced anti-submarine warfare exercise,None,None,None
+2017-10-24 22:70:00,"[[13.17, -71.33]]",Observed humpback whales,None,None,None
+2017-10-24 22:83:00,"[[13.5, -70.75]]",Unidentified aircraft detected,200 knots,180Â°,None
+2017-10-24 23:00:00,"[[12.92, -71.17]]",Completed placement of underwater sensors,None,None,None
+2017-10-24 23:13:00,[[]],Severe storm warning issued,None,None,None
+2017-10-24 23:30:00,"[[12.97, -70.58]]",Located missing yacht,None,None,None
+2017-10-24 23:03:00,"[[13.08, -71.25]]",Completed resupply of submarine Delta,None,None,None
+2017-10-24 23:20:00,"[[12.67, -70.83]]",Detected unusual electromagnetic emissions,None,None,None
+2017-10-24 23:33:00,"[[13.37, -70.47]]",Rescued 5 crew members,None,None,None
+2017-10-24 23:50:00,"[[13.13, -71.03]]",Completed survey of Sector 7B,None,None,15 meters
+2017-10-24 23:63:00,"[[12.58, -71.3]]",Large debris field spotted,None,None,None
+2017-10-25 00:08:00,[[]],Runway 27 closed due to damage,None,None,None
+2017-10-25 00:29:30,"[[13.67, -70.92]]",Mayday call received,None,None,None
+232000Z OCT 24,"[[12.583333, -71.416667]]",Discovered unique hydrothermal vent ecosystem,None,None,3500
+232130Z OCT 24,"[[13.833333, -70.666667]]",Detected unidentified aerial object,"variable, ranging from 0 to 500 knots",None,5000
+232300Z OCT 24,"[[12.8, -70.25]]",Mass stranding event in progress,None,None,None
+240030Z OCT 24,"[[13.083333, -71.583333]]",Explosion reported on drilling deck,None,None,None
+240200Z OCT 24,"[[13.366667, -71.3]]",Covert insertion completed at objective Falcon,None,None,None
+240330Z OCT 24,"[[12.5, -70.5]]",Sudden pressure drop detected across multiple buoys,"increasing rapidly, gusting to 100 knots",None,None
+240500Z OCT 24,"[[13.166667, -71.083333]]",Completed resupply operation with SSN Barracuda,None,None,None
+240630Z OCT 24,"[[12.916667, -70.766667]]",Detected large toxic algal bloom forming,None,None,None
+240800Z OCT 24,"[[13.666667, -70.833333]]",Spotted debris field,None,None,None
+240930Z OCT 24,"[[12.5, -71.25]]",Completed high-resolution mapping of seafloor in sector 17,None,None,None
+241100Z OCT 24,"[[13.416667, -71.666667]]",Intercepted encrypted transmissions from unknown vessel,None,None,None
+241230Z OCT 24,"[[12.833333, -70.333333]]",Massive fish die-off observed in protected waters,None,None,None
+241400Z OCT 24,"[[13.25, -71.833333]]",Completed survey of potential mining site Bravo,None,None,4000
+241530Z OCT 24,"[[12.583333, -70.416667]]",Intercepted vessel suspected of human trafficking,10,315,None
+241700Z OCT 24,"[[14, -72.5]]","Strong earthquake detected, magnitude 7.8",None,None,10
+241830Z OCT 24,"[[13.083333, -70.583333]]",Unidentified submarine periscope sighted near base perimeter,None,easterly,None
+242000Z OCT 24,"[[12.666667, -70.75]]",Abnormal readings from turbine cluster 7,None,None,None
+242130Z OCT 24,"[[13.5, -71.333333]]",Discovered intact ancient shipwreck,None,None,150
+242300Z OCT 24,"[[13.833333, -71.166667]]",Responding to distress call from cruise ship Oceanic Dream,None,None,None
+250030Z OCT 24,"[[12.916667, -71.666667]]",Detected unusual seismic activity,None,None,None
+250200Z OCT 24,"[[13.166667, -70.666667]]",Observed unprecedented gathering of various marine species,None,None,None
+250330Z OCT 24,"[[13.666667, -71.5]]","Radar contact with fast-moving, low-flying object",Mach 3,045,100
+250500Z OCT 24,"[[13, -71.25]]",Rogue wave reported by multiple vessels,None,None,30
+250630Z OCT 24,"[[12.5, -70.75]]",Successfully neutralized underwater listening device,None,None,500
+250800Z OCT 24,"[[13.75, -71.916667]]",Detected massive methane release event,None,None,None
+250930Z OCT 24,"[[12.833333, -71.666667]]",Encountered unexpected geological formation at mining site.,None,None,4500
+251100Z OCT 24,"[[13.333333, -70.5]]",Intercepted suspicious vessel.,None,None,None
+251230Z OCT 24,"[[13.083333, -71.166667]]",Recorded unusual whale vocalizations.,None,None,None
+251400Z OCT 24,"[[12.5, -70.75], [13, -71.15]]",Completed sweep of suspected hostile submarine activity area.,None,None,None
+251530Z OCT 24,"[[13.583333, -71.416667]]",Experiencing unexpected pressure buildup in well 7.,None,None,None
+251700Z OCT 24,"[[14, -72]]",Investigated tropical disturbance.,60,West-northwest,None
+251830Z OCT 24,"[[12.666667, -71.083333]]",Observed unidentified underwater vehicle.,None,None,2000
+252000Z OCT 24,"[[13.25, -70.833333]]",Detected large-scale chemical spill.,None,None,None
+252130Z OCT 24,"[[13.833333, -71.666667]]",Tracked formation of unidentified aircraft.,2,270Â°,None
+252300Z OCT 24,"[[12.916667, -71.5]]",Discovered unique bioluminescent phenomenon.,None,None,3000
+260030Z OCT 24,[[]],Suspicous package detected during routine scan of incoming cargo.,None,None,None
+260200Z OCT 24,"[[13.166667, -70.666667], [13.333333, -70.833333]]",Encountered massive school of unidentified fish species.,None,None,None
+260330Z OCT 24,"[[13.416667, -71.25]]",Detected sophisticated cyber attack on naval communications network.,None,None,None
+260500Z OCT 24,"[[12.75, -70.583333]]",Responding to distress signal from private yacht 'Sea Spirit'.,None,None,None
+260630Z OCT 24,"[[13.666667, -71.833333]]",Detected series of underwater explosions.,None,None,None
+260800Z OCT 24,"[[12.5, -70.333333], [12.666667, -70.5]]",Observed mass die-off of coral in protected reef.,None,None,None
+260930Z OCT 24,"[[13.083333, -71.75], [13.066667, -71.816667]]",Completed survey of potential mining site Delta.,None,None,4500
+261100Z OCT 24,"[[13.5, -72]]",Recording extreme weather conditions in sector 6.,150,None,None
+261230Z OCT 24,"[[12.833333, -71.166667]]",Completed covert resupply of SSN Barracuda.,None,None,None
+261400Z OCT 24,"[[13.416667, -71.583333]]",Unidentified surface vessels approaching territorial waters.,25,315Â°,None
+261530Z OCT 24,"[[13.25, -71.416667]]",Detected significant seismic activity.,None,None,None
+261700Z OCT 24,"[[12.583333, -70.666667]]",Intercepted encrypted transmissions from unknown source.,None,None,None
+261830Z OCT 24,"[[13, -70.75], [13.166667, -70.916667]]",Experiencing catastrophic failure of multiple turbines.,None,None,None
+262000Z OCT 24,"[[12.666667, -71.5], [12.666667, -71.416667]]",Discovered unknown species of giant squid.,None,None,2000
+262130Z OCT 24,"[[13.833333, -71.083333]]",Spotted large debris field.,None,None,None
+2024-10-20 14:30:00 UTC,"[[13.25, -71.5]]",Cargo vessel 'Pacific Trader' observed,12,45,None
+2024-10-20 15:45:00 UTC,"[[12.833333, -70.25]]",Two fishing vessels spotted,None,None,None
+2024-10-20 17:20:00 UTC,"[[13.083333, -71.166667]]",Unidentified fast-moving craft,35,270,None
+2024-10-20 19:00:00 UTC,"[[12.666667, -70.916667]]",Large underwater contact detected,None,None,200
+2024-10-20 20:30:00 UTC,"[[13.5, -71.75]]",Cruise ship 'Ocean Star' observed,None,None,None
+2024-10-20 22:10:00 UTC,[[]],Multiple small contacts detected,None,None,None
+2024-10-20 23:55:00 UTC,"[[12.5, -70.666667]]",Tanker 'Black Pearl' observed,8,180,None
+2024-10-21 01:30:00 UTC,[[]],Pleasure yacht 'Sea Breeze' entering Port Xavier,None,None,None
+2024-10-21 03:40:00 UTC,"[[13.333333, -71.25]]",Oil slick detected,None,None,None
+2024-10-21 05:05:00 UTC,"[[12.916667, -70.5]]",Unlit vessel spotted,6,90,None
+2024-10-21 06:30:00 UTC,"[[13.166667, -70.333333]]",Large cargo ship 'Asian Enterprise' passed,15,315,None
+2024-10-21 08:15:00 UTC,"[[12.75, -71.083333]]",School of dolphins spotted,None,None,None
+2024-10-21 09:50:00 UTC,"[[13.583333, -71.416667]]",Small aircraft flying low over water,120,180,None
+2024-10-21 11:25:00 UTC,"[[12.633333, -70.8]]",Intercepted distress call from sailing yacht 'Windseeker',None,None,None
+2024-10-21 13:00:00 UTC,[[]],Container ship 'Global Freight' docked,None,None,None
+2024-10-21 13:00:00 UTC,[[]],All quiet in sector 7,None,None,None
+2024-10-20 14:30:00 UTC,"[[13.25, 71.5]]",Cargo vessel observed,12,45,None
+2024-10-21 08:45:00 UTC,"[[12.833333, 70.25]]",Two fishing vessels spotted,None,None,None
+2024-10-22 22:15:00 UTC,"[[13.083333, 71.166667]]",Unidentified fast-moving craft,35,270,None
+2024-10-23 11:00:00 UTC,"[[12.666667, 70.916667]]",Large underwater contact detected,None,None,200
+2024-10-24 16:20:00 UTC,"[[13.5, 71.75]]","Cruise ship ""Ocean Star"" observed",None,None,None
+2024-10-25 03:10:00 UTC,[[]],Multiple small contacts detected,None,None,None
+2024-10-26 19:55:00 UTC,"[[12.5, 70.666667]]","Tanker ""Black Pearl"" observed",8,180,None
+2024-10-27 07:30:00 UTC,[[]],Pleasure yacht entering Port Xavier,None,None,None
+2024-10-28 13:40:00 UTC,"[[13.333333, 71.25]]",Oil slick detected,None,None,None
+2024-10-29 05:05:00 UTC,"[[12.916667, 70.5]]",Unlit vessel spotted,6,90,None
+2024-10-20 16:45:00 local,"[[12.566667, 70.933333]]","Small craft at 12Â°34'N, 70Â°56'W",5-15 knots,None,None
+2024-10-21 09:30:00 local,"[[13.166667, 71.333333]]","Large cargo ship, possible smuggling",18,225,None
+2024-10-22 14:15:00 local,"[[12.75, 70.666667]]",Submarine-like contact,None,180,150
+2024-10-23 22:00:00 local,"[[13.083333, 71.166667]]","Lights off shore, possible illegal fishing",None,None,None
+2024-10-24 11:20:00 local,"[[13.5, 71.75]]",Oil tanker approaching restricted area,None,None,None
+2024-10-25 08:45:00 local,"[[12.5, 70.333333]]",Suspicious debris washed ashore,None,None,None
+2024-10-26 19:30:00 local,"[[13.25, 71.5]]","Fast-moving air contact, low altitude",None,None,None
+2024-10-27 05:10:00 local,"[[12.833333, 70.833333]]",Two vessels rendezvousing at sea,None,None,None
+2024-10-28 13:00:00 local,"[[13.333333, 71.25]]",Unidentified submersible near reef,None,None,None
+2024-10-29 17:40:00 local,"[[12.666667, 70.5, 13.166667, 71]]",Large-scale military exercise observed,None,None,None
+2024-10-24 16:45:00 UTC,"[[13.75, 71.383333]]",Detected submarine periscope,None,270,None
+2024-10-24 21:03:00 UTC,[[]],Weather advisory: Tropical storm approaching,None,None,None
+2024-10-24 22:15:00 UTC,"[[12.5, 70.75]]",Spotted vessel matching description of wanted smuggling ship,20,315,None
+2024-10-24 23:12:00 UTC,"[[13.166667, 71.083333]]",Completed underwater mapping of Sector 4,None,None,80
+2024-10-24 24:16:00 UTC,[[]],Port closure due to maintenance,None,None,None
+2024-10-24 25:18:30 UTC,"[[12.916667, 70.666667]]","Distress call received from yacht ""Serenity""",None,None,None
+2024-10-26 10:45:00 UTC,"[[13.416667, 71.333333]]",Oil spill detected,None,None,None
+2024-10-27 08:30:00 UTC,"[[12.666667, 70.5]]","Intercepted fishing vessel ""Lucky Star""",25,45,None
+2024-10-28 12:00:00 UTC,[[]],Possible hostile submarine activity,None,None,None
+2024-10-29 16:00:00 UTC,"[[13.083333, 70.333333]]","Lighthouse at 13Â°05'N, 70Â°20'W undergoing repairs",None,None,None
+2024-10-24 22:00:00,"[[10, 76.25]]",Unidentified submarine detected off the coast of Kerala,200 knots,45-degree angle,80 metres
